@@ -6,7 +6,7 @@ import json
 with open("token.txt", newline="") as tokenFile:
     TOKEN = tokenFile.read()
 
-bot = commands.Bot(command_prefix=':!')
+bot = commands.Bot(command_prefix='.vcping')
 bot.remove_command("help")
 
 @bot.event
