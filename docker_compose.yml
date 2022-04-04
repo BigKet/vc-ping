@@ -1,0 +1,5 @@
+services:
+    aniketos:
+        container_name: vc-ping
+        build: .
+        restart: unless-stopped
